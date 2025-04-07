@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>i-meng bakery</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff8e1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .banner {
+      background-image: url('https://api2.krua.co/wp-content/uploads/2020/06/SlideBanner_RB0130_1140x507.jpg');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 80px 20px;
+      color: white;
+      position: relative;
+    }
+
+    .banner h1,
+    .subtitle {
+      display: block; 
+      background-color: rgba(255, 165, 0, 0.9); /* สีส้ม */
+      padding: 10px 30px; 
+      border-radius: 10px;
+      margin: 0 auto; 
+      line-height: 1.2; 
+      width: max-content; 
+    }
+
+    .banner h1 {
+      font-size: 2.5em;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px 10px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      color: #333;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 12px 20px;
+      background-color: #ff9800;
+      border: none;
+      color: white;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .card button:hover {
+      background-color: #e68900;
+    }
+
+    .video-container {
+      max-width: 300px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Honey Caramel Cornflakes</h1>
+    <div class="subtitle">
+      🌽คอนเฟลกคาราเมลน้ำผึ้ง 🍯 หอม กรอบ อร่อย น้ำผึ้งแท้ๆ เคี้ยวเพลินสุดๆ✨
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="card" style="background-color: #fff3e0;">
+      <img src="d:\Wep peag\web_page\image\3.png" alt="คอนแฟลก">
+      <p>คลิกเพื่อสั่งซื้อ</p>
+      <button onclick="window.open('https://lin.ee/D7g9kM5', '_blank')">สั่งเลย</button>
+    </div>
+
+    <div class="card" style="background-color: #fff3e0;">
+      <img src="d:\Wep peag\web_page\image\4image.jpeg" alt="หลายรสชาติ">
+      <p>มีหลากหลายรสชาติให้เลือก</p>
+      <p>🌽ลูกเกด🍯</p>
+      <p>🌽อัลมอลสไลด์🍯</p>
+      <p>🌽คอนเฟลกล้วน🍯</p>
+      <p>🌽คอนเฟลกผสม🍯</p>
+    </div>
+
+    <div class="video-container">
+      <video controls>
+        <source src="d:\Wep peag\web_page\vdo\vdo01.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-container">
+      <video controls>
+        <source src="d:\Wep peag\web_page\vdo\vdo02.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+
+</body>
+</html>
